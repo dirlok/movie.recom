@@ -34,7 +34,7 @@ Data wrangling helps us to convert data from json to csv format.
     Therefore, in this section, we will use Collaborative Filtering to make recommendations to Movie Watchers. Collaborative Filtering is based on the idea that users     similar to a me can be used to predict how much I will like a particular product or service those users have used/experienced but I have not.
     I will not be implementing Collaborative Filtering from scratch. Instead, I will use the Surprise library that used extremely powerful algorithms like Singular         Value Decomposition (SVD) to minimise RMSE (Root Mean Square Error) and give great recommendations.
  
- 4) HYBRID RECOMMENDATION ENGINE:
+ 4)HYBRID RECOMMENDATION ENGINE:
      In this section, will try to build a simple hybrid recommender that brings together techniques we have implemented in the content based and collaborative filter        based engines. This is how it will work:
      Input: User ID and the Title of a Movie.
      Output: Similar movies sorted on the basis of expected ratings by that particular user.
